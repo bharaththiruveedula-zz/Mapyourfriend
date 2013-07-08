@@ -1,0 +1,89 @@
+/*
+
+	CSS StyleSheet Chat Application
+	
+*/
+
+html, body {
+	margin:0px;
+
+}
+
+#messages {
+	width: 500px;
+	height: 150px;
+	position: relative;
+	border: 1px solid #CCC;
+	overflow: auto;
+	left: 400px;
+}
+
+#input {
+	position: relative;
+	left: 400px;
+}
+#message {
+	width: 300px;
+	height: 20px;
+}
+#feedback {
+	display: none;
+}
+#map{
+
+	left: 300px;
+	top: 45px;
+	width:700px;
+	height:400px;
+}
+
+#sideBar{
+	width:100px;
+	height:200px;
+	text-align:center;
+	background:#EEF7FF;
+	position: relative;
+	left: 1000px;
+
+	
+}
+
+#sideBar div{
+ 	cursor:pointer 
+ 	
+}
+
+#sideBar div:hover{ 
+	text-decoration:underline 
+}
+
+#buttons{ 
+	clear:both;
+	text-align:center 
+}
+    /* clicked items get this class */
+
+.bSideSelect{ 
+	background:#dadae3; 
+}
+#usernavbar{
+background: #EEF7FF; 	
+width: 200px;
+height: 900px;
+position: fixed;
+top: 50px;
+}
+#usernavbar img{
+	width:100px;
+	height:100px;
+	position: relative;
+	left: 50px;
+	top: 30px;
+}
+#usernavbar ul{
+	position: relative;
+	top: 20px;
+}
+#usernavbar ul li{
+	text-align: center;
+}
